@@ -20,9 +20,12 @@ body {
     min-height: 100vh;
     padding: 50px;
 }
+/* show-nav */
 .container.show-nav {
     transform: rotate(-20deg);
 }
+
+
 .circle-container {
     position: fixed;
     top: -100px;
@@ -36,7 +39,7 @@ body {
     position: relative;
     transition: transform 0.5s linear;
 }
-
+/* rotating buttons  */
 .container.show-nav .circle {
     transform: rotate(-70deg);
   }
@@ -54,10 +57,11 @@ body {
 .circle button:focus {
     outline: none;
 }
-
+/* Adjusting Open Button */
 .circle button#open {
     left: 60%;
 }
+/* Adjusting Close Button */
 .circle button#close {
     top: 60%;
     transform: rotate(90deg);
